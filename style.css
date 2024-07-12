@@ -218,7 +218,7 @@ section .title::after{
 
 .mySlides{
     display: flex;
-    background: url("./assets/Slide4.jpg") no-repeat center;
+    background: url("./assets/robot.jpg") no-repeat center;
     height: 100vh;
     width:auto;
     color: #fff;
