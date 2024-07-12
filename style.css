@@ -849,7 +849,7 @@ section .title::after{
 
 .service {
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 7px;
 }
 .max-width {
     max-width: 1200px;
@@ -927,7 +927,7 @@ section .title::after{
     left: -16px;
 }
 .content {
-    padding: 20px 30px;
+    padding: 1rem;
     background-color: white;
     position: relative;
     border-radius: 6px;
