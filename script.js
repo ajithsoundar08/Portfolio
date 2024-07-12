@@ -36,25 +36,25 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [ "SoftWare Developer"],
+        strings: [ "SoftWare Analyst"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing1", {
-        strings: [ "SoftWare Developer"],
+        strings: [ "SoftWare Analyst"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing2", {
-        strings: [ "SoftWare Developer"],
+        strings: [ "SoftWare Analyst"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: [ "SoftWare Developer"],
+        strings: [ "SoftWare Analyst"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
