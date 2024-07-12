@@ -552,7 +552,7 @@ section .title::after{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 10px 4px;
     margin-top: 20px;
     border-radius: 6px;
     border: 2px solid #009595;
@@ -849,7 +849,7 @@ section .title::after{
 
 .service {
     background-color: #f4f4f4;
-    padding: 7px;
+    padding: 20px 0px;
 }
 .max-width {
     max-width: 1200px;
@@ -934,7 +934,7 @@ section .title::after{
 }
 .card a {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
