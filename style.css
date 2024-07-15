@@ -236,7 +236,7 @@ section .title::after{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: left;
+    justify-content: center;
     width: 100%;
 }
 
@@ -256,7 +256,7 @@ section .title::after{
 }
 
 .mySlides .mySlides-content .text-2 {
-    font-size: 45px;
+    font-size: 48px;
 }
 
 .mySlides .mySlides-content a {
