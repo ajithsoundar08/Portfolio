@@ -216,11 +216,11 @@ section .title::after{
   
 /* mySlides section styling */
 
-.mySlides{
+.mySlides {
     display: flex;
     background: url("./assets/robot.jpg") no-repeat center;
     height: 100vh;
-    width:auto;
+    width: 100%;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -263,6 +263,22 @@ section .title::after{
     background: none;
 }
 
+/* For tablets and desktops */
+@media (min-width: 768px) {
+    .mySlides {
+        height: 100vh;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+    .mySlides {
+        height: auto;
+        min-height: 500px;
+        background-attachment: scroll;
+        padding: 20px;
+    }
+}
 /* about section styling */
 
 .about .title::after{
@@ -369,7 +385,7 @@ section .title::after{
 }
 .service .title::after{
     background: #fff;
-    content: "what i did";
+    content: "where i did";
 }
 .service .exp-content .card{
     width: calc(33% - 20px);
