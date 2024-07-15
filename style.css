@@ -210,7 +210,6 @@ section .title::after{
 
   
 /* mySlides section styling */
-
 .mySlides {
     display: flex;
     align-items: center;
@@ -223,20 +222,22 @@ section .title::after{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
-    text-align: center;
+    text-align: left;
     padding: 20px;
 }
 
 .max-width {
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .mySlides .mySlides-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    width: 100%;
 }
 
 .mySlides .mySlides-content .text-1,
@@ -283,6 +284,14 @@ section .title::after{
         height: 100vh;
         padding: 0;
     }
+
+    .mySlides .mySlides-content .text-1 {
+        font-size: 36px;
+    }
+
+    .mySlides .mySlides-content .text-2 {
+        font-size: 48px;
+    }
 }
 
 /* For mobile phones */
@@ -293,10 +302,12 @@ section .title::after{
         background-attachment: scroll;
     }
 
-    .mySlides .mySlides-content .text-1,
-    .mySlides .mySlides-content .text-2,
-    .mySlides .mySlides-content .text-3 {
-        font-size: 20px;
+    .mySlides .mySlides-content .text-1 {
+        font-size: 24px;
+    }
+
+    .mySlides .mySlides-content .text-2 {
+        font-size: 32px;
     }
 
     .mySlides .mySlides-content a {
@@ -876,10 +887,6 @@ section .title::after{
 .service {
     background-color: #f4f4f4;
     padding: 20px 0px;
-}
-.max-width {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 .title {
     font-size: 36px;
