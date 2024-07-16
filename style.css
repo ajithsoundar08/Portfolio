@@ -230,6 +230,10 @@ section .title::after{
 .mySlides .max-width{
     margin: auto 0 auto 30px;
 }
+.mySlides .mySlides-content .text-0{
+    font-size: 27px;
+    margin-top: 30%;
+}
 .mySlides .mySlides-content .text-1{
     font-size: 27px;
 }
