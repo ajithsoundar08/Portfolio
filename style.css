@@ -729,7 +729,8 @@ section .title::after{
 /* responsive media query start */
 @media (max-width: 1300px) {
     .mySlides .max-width{
-        margin-left: 0px;
+        margin-left: -25px;
+        margin-top: 0%;
     }
 }
 
