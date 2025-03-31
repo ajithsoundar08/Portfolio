@@ -232,7 +232,7 @@ section .title::after{
 }
 .mySlides .mySlides-content .text-0{
     font-size: 27px;
-    margin-top: 35%;
+    margin-top: 30%;
 }
 .mySlides .mySlides-content .text-1{
     font-size: 27px;
@@ -837,6 +837,9 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
+    .mySlides .mySlides-content .text-0{
+        margin-top: 35% !important;
+    }
     .mySlides .mySlides-content .text-2{
         font-size: 40px;
     }
