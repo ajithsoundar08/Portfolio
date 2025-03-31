@@ -776,6 +776,10 @@ section .title::after{
         margin: 20px 0;
         font-size: 25px;
     }
+    .mySlides .mySlides-content .text-0{
+        font-size: 27px;
+        margin-top: 30%;
+    }
     .mySlides .mySlides-content .text-2{
         font-size: 70px;
     }
@@ -819,6 +823,10 @@ section .title::after{
     .max-width{
         padding: 0 23px;
     }
+    .mySlides .mySlides-content .text-0{
+        font-size: 27px;
+        margin-top: 30%;
+    }
     .mySlides .mySlides-content .text-2{
         font-size: 60px;
     }
@@ -838,7 +846,7 @@ section .title::after{
 
 @media (max-width: 500px) {
     .mySlides .mySlides-content .text-0{
-        margin-top: 35% !important;
+        margin-top: 35%;
     }
     .mySlides .mySlides-content .text-2{
         font-size: 40px;
