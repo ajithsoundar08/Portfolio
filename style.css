@@ -232,7 +232,7 @@ section .title::after{
 }
 .mySlides .mySlides-content .text-0{
     font-size: 27px;
-    margin-top: 30%;
+    margin-top: 35%;
 }
 .mySlides .mySlides-content .text-1{
     font-size: 27px;
@@ -490,16 +490,16 @@ section .title::after{
     width: 70%;
 }
 .skills-content .right .js::before{
-    width: 70%;
+    width: 85%;
 }
 .skills-content .right .php::before{
     width: 70%;
 }
 .skills-content .right .mysql::before{
-    width: 95%;
+    width: 55%;
 }
 .skills-content .right .vbnet::before{
-    width: 60%;
+    width: 75%;
 }
 
 /* teams section styling */
@@ -952,6 +952,7 @@ section .title::after{
     background-color: white;
     position: relative;
     border-radius: 6px;
+    box-shadow: 5px 10px;
 }
 .card a {
     display: inline-block;
