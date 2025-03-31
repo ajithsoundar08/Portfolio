@@ -778,7 +778,7 @@ section .title::after{
     }
     .mySlides .mySlides-content .text-0{
         font-size: 27px;
-        margin-top: 30%;
+        margin-top: 25%;
     }
     .mySlides .mySlides-content .text-2{
         font-size: 70px;
@@ -825,7 +825,7 @@ section .title::after{
     }
     .mySlides .mySlides-content .text-0{
         font-size: 27px;
-        margin-top: 30%;
+        margin-top: 25%;
     }
     .mySlides .mySlides-content .text-2{
         font-size: 60px;
@@ -846,7 +846,7 @@ section .title::after{
 
 @media (max-width: 500px) {
     .mySlides .mySlides-content .text-0{
-        margin-top: 35%;
+        margin-top: 40%;
     }
     .mySlides .mySlides-content .text-2{
         font-size: 40px;
