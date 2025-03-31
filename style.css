@@ -507,9 +507,9 @@ section .title::after{
     content: "what i did";
 }
 .teams .carousel .card{
-    background: #222;
+    background: #064437;
     border-radius: 6px;
-    padding: 25px 35px;
+    padding: 25px 22px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
