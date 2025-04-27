@@ -42,19 +42,19 @@ $(document).ready(function(){
         loop: true
     });
     var typed = new Typed(".typing1", {
-        strings: [ "SoftWare Analyst"],
+        strings: [ "SoftWare Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing2", {
-        strings: [ "SoftWare Analyst"],
+        strings: [ "SoftWare Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: [ "SoftWare Analyst"],
+        strings: [ "SoftWare Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
