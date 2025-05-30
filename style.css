@@ -523,7 +523,7 @@ section .title::after{
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
-    padding: 25px 22px;
+    padding: 50px 10px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
