@@ -529,7 +529,7 @@ section .title::after{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 520px;
+  height: 415px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.6);
   transition: all 0.35s ease;
 }
@@ -1022,3 +1022,4 @@ section .title::after{
         left: 0%;
     }
 }
+
